@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Dream's Nails website</title>
+
+</head>
+<body>
+
+<!-- navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-warning navbar-light py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand"> Dream's Nails</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link"> HOME </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutus" class="nav-link"> ABOUT US </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link"> SERVICES </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/team.html" class="nav-link"> OUR TEAM </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="/contact.html" class="nav-link"> CONTACT US </a>
+                    </li>
+                    <li class="nav-item ms-2 d-md-inline">
+                        <a class="btn btn-dark" href="/bookingandinfo.html">Book now</a>
+                      </li>
+                </ul>
+
+            </div>
+          
+        </div>
+        
+    </nav>
+
+    <!-- Showcase part-->
+    <section id="home" class="bg-light text-dark p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1> <span class="text-warning">
+                        A REFRESHING, A BOLD, A LIGHT
+
+                    </span></h1>
+                    <p class="lead my-5"> Just like you dreamed it !</p>
+                    <button class="btn btn-warning btn-md"> MENU SERVICES </button>
+
+
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="assets/manucure1.png" alt="">
+
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <!--About us -->
+    
+    
+    <section id="aboutus" class="bg-light text-center py-5">
+        <div class="container">
+            <h2 class="mb-4">About Us</h2>
+            <div class="bg-warning text-dark p-4 rounded">
+                <h3 class="mb-3">Welcome to Dream's Nail Salon</h3>
+                <p>
+                    Experience the ultimate in nail care and pampering at Dream's Nail Salon. Whether you're looking for a luxurious manicure, a relaxing pedicure, charming kids' nail services, or professional waxing, we offer it all.
+                </p>
+                <p>
+                    Our talented team of passionate nail technicians and friendly staff are dedicated to making you feel special and satisfied. At Dream's Nail Salon, you'll be greeted with warmth and treated with the utmost care in a serene and inviting atmosphere.
+                </p>
+                <p>
+                    Treat yourself or your loved ones to something new and delightful. Dream's Nail Salon is the perfect destination for a little indulgence and self-care.
+                </p>
+                <p>
+                    Visit us today at 1225 Rideau St, Ottawa, ON K1N 5Y6, and experience the exceptional service you deserve.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our services -->
+    <section id="services" class="bg-light text-center">
+        <div class="container"> 
+            <h3 class="mb-4">Our Servives</h3>
+
+
+
+        </div>
+    </section>
+
+    <!-- Our services Boxes -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md service-box" style="background-image: url('assets/manucure1.png');">
+                
+                    <div>Manicure</div>
+                    <button class="btn btn-warning">Learn More</button>
+                </div>
+                <div class="col-md service-box" style="background-image: url('assests/pedicure.png');">
+                    <div>Pedicure</div>
+                    <button class="btn btn-warning">Learn More</button>
+                </div>
+                <div class="col-md service-box" style="background-image: url('assets/wax.png');">
+                    <div>Waxing</div>
+                    <button class="btn btn-warning">Learn More</button>
+                </div>
+                <div class="col-md service-box" style="background-image: url('assest/nails1.png');">
+                    <div>Nails Care</div>
+                    <button class="btn btn-warning">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+   
+   
+    <!-- Reviews -->
+    <section class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Reviews</h2>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div>
+                            <p class="review-text">"Dream's Nail Salon exceeded my expectations. The manicure was perfect, and the staff were incredibly friendly!"</p>
+                            <p class="review-author">- Sarah L.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <p class="review-text">"Best pedicure I've ever had! The ambiance is so relaxing, and I felt very pampered."</p>
+                            <p class="review-author">- Emily R.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div>
+                            <p class="review-text">"I took my daughter for her first manicure here, and she loved it! The kids' nail services are fantastic."</p>
+                            <p class="review-author">- Jessica T.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+   
+   
+   
+   
+   
+    <!-- Our designs-->
+    <section class="p-5"> 
+        <div class="background-container">
+            <h2>Our Designs</h2>
+            <div class="overlay-container">
+                <div class="image-box">
+                    <img src="images/design1.jpg" alt="Design 1">
+                </div>
+                <div class="image-box">
+                    <img src="images/design2.jpg" alt="Design 2">
+                </div>
+                <div class="image-box">
+                    <img src="images/design3.jpg" alt="Design 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Contact us-->
+    <section id="contactus" class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <p>
+                        Treat yourself or your loved ones to something new and delightful. Dream's Nail Salon is the perfect destination for a little indulgence and self-care.
+                    </p>
+                   <p>
+                    Visit us today at 1225 Rideau St, Ottawa, ON K1N 5Y6, and experience the exceptional service you deserve. 
+                   </p>  
+                </div>
+                <div class="col-md text-center" text-center>
+                    <h2 class="mb-4">CONTACT US</h2>
+                    <p>1225 Rideau St, Ottawa, ON K1N 5Y6</p>  
+                    <p>+1 (225)122-225</p>
+                    <h5 class="mb-2"> BUSINESS HOURS</h5>
+                    <p>Mon-Fri : 10 AM - 8 PM</p>
+                    <p>Mon-Fri : 10 AM - 9 PM</p>
+                    <p>Mon-Fri : 11 AM - 6 PM</p>
+                  
+                
+                </div>
+                <div class="col-md">
+                   <div id="map"></div>
+                  </div>
+
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+<!-- footer-->
+    <footer class="py-3 bg-warning text-dark text-center position-relative">
+        <div class="container">
+            <p class="lead"> &copy; Copyright 2024 Dream's Nails Salon  </p>
+            
+        </div>
+
+    </footer> 
+
+
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v3.4.0/mapbox-gl.js'></script>
+
+
+    <script> 
+        mapboxgl.accessToken = 'pk.eyJ1IjoiamEyOSIsImEiOiJjbHg5aW5sZ2sycDEyMnJxMWExYmdtdGh0In0.nlTDcinWQly9hWoZzwCzig';
+        const map = new mapboxgl.Map({
+	    container: 'map', // container ID
+	    style: 'mapbox://styles/mapbox/streets-v12', // style URL
+	    center: [-75.692375, 45.425446], // starting position [lng, lat]
+	    zoom: 10, // starting zoom
+        });
+
+    
+    
+    </script>
+
+</body>
+</html>
